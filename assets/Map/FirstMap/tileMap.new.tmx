@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-up" width="60" height="40" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="Dungeon_A4" tilewidth="32" tileheight="32">
+  <image source="Dungeon_A4.png" width="512" height="480"/>
+ </tileset>
+ <tileset firstgid="241" name="Inside_A4" tilewidth="32" tileheight="32">
+  <image source="Inside_A4.png" width="512" height="480"/>
+ </tileset>
+ <tileset firstgid="481" name="Outside_A3" tilewidth="32" tileheight="32">
+  <image source="Outside_A3.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="609" name="Inside_A5" tilewidth="32" tileheight="32">
+  <image source="Inside_A5.png" width="256" height="512"/>
+ </tileset>
+ <layer name="land" width="60" height="40">
+  <data encoding="base64" compression="zlib">
+   eJztzjENAAAIA7DZxxfCUMBNQnr0bydpAAAAAAAAAADghVpcv74alVssiA==
+  </data>
+ </layer>
+ <layer name="Wall" width="60" height="40">
+  <data encoding="base64" compression="zlib">
+   eJzllzsWxCAIRV17OnedKVMo8OAh6hQUcwYNl7+9tdZ/8lwoXZDo/4hId1m+84+8Fv7deS12Wm2N8FjtYPBG82MUb4sOkhteXu93pHPab9S3LF6mHzWfVfOulhlvJJ+ya4DNa40x6pNq1lW8qO7OvKy5cQJvht4JvFqcI/XL6nmWnYPlt4itj3I/wirZ4+Flz3KLnWgsZnH23M2evQybRn5j3s0Upk2n8jL6Hiufs3mjzBLXDjsga3ZYz+7Am9nzs3k9vXuky9g9sni1HuF9d+7Ci8awomYYfdDj+6qeGO0JnlrMZp3teoweqM20FXyI/RnxrZ7fCK/H1tEbpIrVwxu5v5r163NL7jLmUDXvzC7prVDZb7L5LblwAzPKtJqXnWNo7a7i1WrtJl4pjtEY75bPmW8Mzy65gpehg5zTdu2T5cv5AsLd+JU=
+  </data>
+ </layer>
+ <layer name="块层 7" width="60" height="40">
+  <data encoding="base64" compression="zlib">
+   eJzt2cEKgCAURFHpj/r/n4sWLg0i38yjuQdapl7BFjlGrvNYP6q5lGulV9v79f1dvRU69K7GqzDH3TVP5Vo7SusFAAAAAAAAulP+P+8grfeW1jul9b6Rti8pvd3Ouvp+0tnruI919Crnd/eq99zZ+9T69+9mpQu1xiLe
+  </data>
+ </layer>
+ <objectgroup name="WallObject">
+  <object name="Test" type="Wall" x="416" y="256">
+   <polyline points="0,0 320,0 320,32 352,32 352,192 320,192 320,224 288,224 288,256 288,288 96,288 96,256 64,256 64,192 0,192 0,128 -32,128 -32,32 0,32 0,0"/>
+  </object>
+  <object x="544" y="768">
+   <polyline points="0,0 0,32 -64,32 -64,64 -96,64 -96,160 -64,160 -64,256 64,256 64,192 96,192 96,160 128,160 128,128 256,128 256,96 384,96 384,64 416,64 416,-32 384,-32 384,-64 224,-64 224,-32 128,-32 128,0 0,0"/>
+  </object>
+  <object x="1184" y="416">
+   <polyline points="0,0 0,64 -32,64 -32,288 0,288 0,320 64,320 64,352 192,352 192,192 160,192 160,160 128,160 128,64 96,64 96,0 0,0"/>
+  </object>
+  <object x="1184" y="32">
+   <polyline points="0,0 0,96 -32,96 -32,160 -64,160 -64,64 -32,64 -32,0 -224,0 -224,160 -192,160 -192,128 -160,128 -160,192 -256,192 -256,0 -224,0"/>
+  </object>
+  <object x="1440" y="32">
+   <polyline points="0,0 0,160 128,160 128,192 160,192 160,128 32,128 32,0 0,0"/>
+  </object>
+  <object x="1696" y="32">
+   <polyline points="0,0 0,128 -32,128 -32,192 0,192 0,160 32,160 32,128 96,128 96,160 128,160 128,384 64,384 64,416 32,416 32,512 64,512 64,576 128,576 128,672 160,672 160,800 -64,800 -64,832 160,832 192,832 192,640 160,640 160,544 96,544 96,480 64,480 64,416 160,416 160,128 128,128 128,96 64,96 64,-32 0,0"/>
+  </object>
+  <object x="1184" y="1088">
+   <polyline points="0,0 0,32 -64,32 -64,64 -96,64 -96,96 -128,96 -128,160 -96,160 -96,128 -64,128 -64,96 -32,96 -32,64 32,64 32,32 64,32 64,0 0,0"/>
+  </object>
+  <object x="1312" y="1088">
+   <polyline points="0,0 0,96 32,96 32,160 64,160 64,64 32,64 32,0 0,0"/>
+  </object>
+  <object x="128" y="1024">
+   <polyline points="0,0 0,32 -32,32 -64,32 -64,64 -96,64 -96,192 -64,192 -64,256 -32,256 -32,160 -64,160 -64,96 -32,96 -32,64 32,64 32,0 0,0"/>
+  </object>
+  <object x="256" y="1024">
+   <polyline points="0,0 0,64 32,64 32,224 64,224 64,32 32,32 32,0 0,0"/>
+  </object>
+  <object x="96" y="1248">
+   <polyline points="0,0 1664,0 1728,0 1728,32 0,32 0,0"/>
+  </object>
+  <object x="64" y="1056">
+   <polyline points="0,0 0,-128 32,-128 32,-256 64,-256 64,-384 32,-384 32,-768 0,-768 0,-1056 32,-1056 32,-896 128,-896 128,-864 32,-864 32,-800 64,-800 64,-416 96,-416 96,-224 64,-224 64,-96 32,-96 32,0"/>
+  </object>
+  <object x="96" y="32">
+   <polyline points="0,0 224,0 224,96 192,96 192,160 224,160 224,128 256,128 256,0 1664,0 1664,-32 0,-32 0,0"/>
+  </object>
+  <object x="1632" y="928">
+   <polyline points="0,0 0,64 64,64 64,96 192,96 192,256 160,256 160,320 192,320 192,288 224,288 224,128 256,128 256,-64 224,-64 224,64 96,64 96,32 32,32 32,0 0,0"/>
+  </object>
+ </objectgroup>
+ <layer name="块层 4" width="60" height="40" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T20Hb6AAAAAAAAAAAAB4DCWAAAE=
+  </data>
+ </layer>
+ <layer name="black" width="60" height="40">
+  <data encoding="base64" compression="zlib">
+   eJzt1lEKgCAQhGHxpt7/EuWbiBnhLM3O7g++yn4lZaultHsp1urzUiy96VUsmreXXu2ie7+Yd9891udn7WUzn86XXm3vbh82a8/Si5oPsYfF+YvmRYecKb3a3tWezF7k98CL1/JcM2T5j2P0jnn0sjxPSy/jfwA5x9td5m/rakbEHky+udPZ2H1z6PfLHmJWL9ZeerVLr26RrL30ahfZq272du89bXRetQ54qQ==
+  </data>
+ </layer>
+</map>

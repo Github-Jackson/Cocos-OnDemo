@@ -1,0 +1,32 @@
+{
+  "ver": "2.3.1",
+  "uuid": "378c0672-7752-42b0-925b-ded6e42f68d3",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "platformSettings": {},
+  "subMetas": {
+    "rpg_dadou_1": {
+      "ver": "1.0.4",
+      "uuid": "b44b3b04-820f-42d6-8403-1d2f3e87d365",
+      "rawTextureUuid": "378c0672-7752-42b0-925b-ded6e42f68d3",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 256,
+      "height": 768,
+      "rawWidth": 256,
+      "rawHeight": 768,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "ver": "2.3.1",
+  "uuid": "0759af90-c402-4920-97c6-90c8f3f23f9b",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "platformSettings": {},
+  "subMetas": {
+    "RPG MAKER DS TileA5": {
+      "ver": "1.0.4",
+      "uuid": "c64ecc49-ade3-498c-8f29-ab7fc580d032",
+      "rawTextureUuid": "0759af90-c402-4920-97c6-90c8f3f23f9b",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 256,
+      "height": 512,
+      "rawWidth": 256,
+      "rawHeight": 512,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

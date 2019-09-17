@@ -1,0 +1,32 @@
+{
+  "ver": "2.3.1",
+  "uuid": "0e81b903-4d0d-41bc-99a0-9b4578b4c4b3",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "platformSettings": {},
+  "subMetas": {
+    "RPG maker mv tileA4": {
+      "ver": "1.0.4",
+      "uuid": "c35be061-c30b-4478-9d11-fc6c86bff9e8",
+      "rawTextureUuid": "0e81b903-4d0d-41bc-99a0-9b4578b4c4b3",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 256,
+      "height": 704,
+      "rawWidth": 256,
+      "rawHeight": 704,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
